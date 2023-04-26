@@ -64,6 +64,7 @@ header {
     background-image: url(img/banner.png);
     background-repeat: no-repeat;
     background-position: center center;
+    background-color:grey;
 }
 
 header .container h3 {
