@@ -234,13 +234,14 @@ h2::before {
 }
 
 .team .container .people div {
-    width:25%;
-
+    width: 25%;
     position: relative;
 }
-.team .container .people div img{
-   width: 95%;
+
+.team .container .people div img {
+    width: 95%;
 }
+
 .team .container .people div div {
     width: 95%;
     height: 75px;
@@ -287,7 +288,7 @@ h2::before {
 .team .container .people div ul li {
     list-style: none;
     display: inline-block;
-    
+
 }
 
 .team .container .people div ul li:nth-child(1) a {
@@ -354,9 +355,11 @@ h2::before {
     width: 33%;
     margin-bottom: 29px;
 }
-.work .container .items div img:not(#plus){
+
+.work .container .items div img:not(#plus) {
     width: 92%;
 }
+
 .work .container .items div img:not(#plus) {
     max-width: 100%;
 }
@@ -462,12 +465,12 @@ h2::before {
 
 .feature .container .items div img {
 
-  width: 95%;
+    width: 95%;
 }
 
 .feature .container .items div {
     width: 33.33%;
-   
+
 }
 
 .feature .container .items div h3 {
@@ -644,128 +647,177 @@ footer .container ul li:nth-child(5) a {
         margin-right: auto;
         text-align: center;
     }
-    .modest .container div:first-child ,.modest .container div:last-child {
+
+    .modest .container div:first-child,
+    .modest .container div:last-child {
         width: 50%;
     }
 }
+
 @media screen and (max-width:856px) {
-    nav .container>div{
+    nav .container>div {
         display: block;
         height: auto;
         text-align: center;
     }
 }
+
 @media screen and (max-width:768px) {
     header .container h3 {
         padding-top: 48px;
     }
+
     header {
-        height: 399px;
+        height: auto;
     }
+
     .modest {
         height: auto;
     }
+
     .modest .container {
         display: block;
     }
-    .modest .container div:first-child{
+
+    .modest .container div:first-child {
         padding-top: 30px;
     }
-    .modest .container div:first-child, .modest .container div:last-child {
+
+    .modest .container div:first-child,
+    .modest .container div:last-child {
         width: 100%;
     }
+
     .modest .container div:first-child ul {
         text-align: center;
     }
+
     .modest .container div:last-child {
         margin-top: -99px;
     }
+
     .team {
         height: auto;
     }
-    .team .container h2{
+
+    .team .container h2 {
         padding-top: 30px;
     }
-    .team .container .people div{
+
+    .team .container .people div {
         width: 50%;
         margin-bottom: 10px;
     }
-    .work{
+
+    .team .container .people div div {
         height: auto;
     }
+
+    .work {
+        height: auto;
+    }
+
     .work .container h2 {
         padding-top: 42px;
     }
-    .work .container .items div{
+
+    .work .container .items div {
         width: 50%;
     }
+
     .work .container .showme {
         margin-top: 41px;
         margin-bottom: 20px;
     }
-    .we-do{
+
+    .we-do {
         height: auto;
     }
+
     .we-do .container h2 {
         padding-top: 33px;
     }
+
     .we-do .container .items div {
         width: 50%;
         margin-bottom: 30px;
     }
+
     .feature {
         height: auto;
     }
+
     .feature .container h2 {
         padding-top: 36px;
     }
+
     .feature .container .items div {
         width: 100%;
         margin-bottom: 40px;
         text-align: center;
     }
+
     .feature .container .items div h3 {
         margin-top: 18px;
     }
-    .feature .container .items div p{
+
+    .feature .container .items div p {
         margin-top: 14px;
     }
-    .contact{
+
+    .contact {
         height: auto;
     }
+
     .contact .container h2 {
         padding-top: 30px;
     }
+
     .contact .container .items {
         display: block;
     }
+
     .contact .container .items div {
         width: 100%;
         margin-bottom: 171px;
     }
-    form div{
+
+    form div {
         margin-bottom: 100px;
     }
-    form #name,form #email,form #content {
+
+    form #name,
+    form #email,
+    form #content {
         width: 100%;
     }
+
     form #content textarea {
         width: 100%;
     }
-    .contact .container .items div:nth-child(2){
+
+    .contact .container .items div:nth-child(2) {
         padding: 0px;
         width: 100%;
     }
-    form #name label, form #email label, form #content label{
+
+    form #name label,
+    form #email label,
+    form #content label {
         padding-bottom: 20px;
     }
-    form #name, form #email, form #content {
+
+    form #name,
+    form #email,
+    form #content {
         margin-bottom: 30px;
     }
-    footer{
+
+    footer {
         height: auto;
         margin-top: -146px;
     }
+
     footer .container {
         display: block;
         text-align: center;
