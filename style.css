@@ -64,7 +64,7 @@ header {
     background-image: url(img/banner.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-color:grey;
+    background-color: grey;
 }
 
 header .container h3 {
@@ -456,6 +456,7 @@ h2::before {
 .feature .container .items {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -29px;
 }
 
 .feature .container h2 {
@@ -465,12 +466,14 @@ h2::before {
 }
 
 .feature .container .items div img {
-
-    width: 95%;
+    max-width: 100%;
+    display: block;
 }
 
 .feature .container .items div {
-    width: 33.33%;
+    width: calc(33.33% - 29px);
+    margin-left: 29px;
+
 
 }
 
@@ -765,7 +768,9 @@ footer .container ul li:nth-child(5) a {
     .feature .container .items div p {
         margin-top: 14px;
     }
-
+    .feature .container .items div img {
+        width: 100%;
+    }
     .contact {
         height: auto;
     }
